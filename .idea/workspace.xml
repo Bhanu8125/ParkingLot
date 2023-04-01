@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="55c4c177-b742-433a-b502-7d9c31b47983" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ParkingLot.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ParkingLot/Controller/CalculateFeesController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ParkingLot/Controller/PaymentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ParkingLot/Controller/TicketController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ParkingLot/Controller/VehicleEssentials.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ParkingLot/Dto/BalancedCardPaymentMode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ParkingLot/Dto/CashPaymentMode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ParkingLot/Dto/OnlinePaymentMode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ParkingLot/Dto/ParkingChargeRequestDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ParkingLot/Dto/ParkingChargeResponseDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ParkingLot/Dto/PaymentRequestDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ParkingLot/Dto/PaymentResponseDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ParkingLot/Dto/TicketGenerateRequestDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ParkingLot/Dto/TicketGenerateResponseDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ParkingLot/Dto/TicketResponseStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ParkingLot/Factory/FeesCalculatioFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ParkingLot/Factory/ParkingLotFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ParkingLot/Models/BaseClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ParkingLot/Models/Bill.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ParkingLot/Models/BillStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ParkingLot/Models/ElectricCharger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ParkingLot/Models/ElectricParkingSlot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ParkingLot/Models/Gate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ParkingLot/Models/GateType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ParkingLot/Models/Operator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ParkingLot/Models/ParkingFloor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ParkingLot/Models/ParkingLot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ParkingLot/Models/ParkingLotStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ParkingLot/Models/ParkingSlot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ParkingLot/Models/ParkingState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ParkingLot/Models/Payment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ParkingLot/Models/PaymentStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ParkingLot/Models/PaymentType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ParkingLot/Models/Ticket.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ParkingLot/Models/Vehicle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ParkingLot/Models/VehicleSize.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ParkingLot/Models/VehicleType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ParkingLot/Repository/GateRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ParkingLot/Repository/GateRepositoryImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ParkingLot/Repository/OperatorRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ParkingLot/Repository/OperatorRepositoryImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ParkingLot/Repository/ParkingLotRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ParkingLot/Repository/ParkingLotRepositoryImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ParkingLot/Repository/PaymentRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ParkingLot/Repository/PaymentRepositoryImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ParkingLot/Repository/PaymentRepositoryStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ParkingLot/Repository/TicketRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ParkingLot/Repository/TicketRepositoryImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ParkingLot/Repository/VehicleRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ParkingLot/Repository/VehicleRepositoryImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ParkingLot/Service/CalculateChargeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ParkingLot/Service/CalculateChargeServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ParkingLot/Service/GateService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ParkingLot/Service/GateServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ParkingLot/Service/OperatorService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ParkingLot/Service/OperatorServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ParkingLot/Service/ParkingChargeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ParkingLot/Service/PaymentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ParkingLot/Service/PaymentServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ParkingLot/Service/TicketService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ParkingLot/Service/TicketServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ParkingLot/Service/VehicleService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ParkingLot/Service/VehicleServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ParkingLot/Strategy/FeesCalculation/BicycleFeesCalculationStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ParkingLot/Strategy/FeesCalculation/BikeFeesCalculationStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ParkingLot/Strategy/FeesCalculation/CarFeesCalculationStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ParkingLot/Strategy/FeesCalculation/FeesCalculationStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ParkingLot/Strategy/FeesCalculation/HeavyFeesCalculationStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ParkingLot/Strategy/SlotAssigment/SlotAssignmentStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ParkingLot/Strategy/SlotAssigment/findNearestParkingSlot.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="2NkG4M5eSmZYy3XCbjDQhgwafb3" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/Users/praka/IdeaProjects/ParkingLot/src"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\praka\IdeaProjects\ParkingLot\src" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="55c4c177-b742-433a-b502-7d9c31b47983" name="Changes" comment="" />
+      <created>1680200476723</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1680200476723</updated>
+    </task>
+    <servers />
+  </component>
+</project>
